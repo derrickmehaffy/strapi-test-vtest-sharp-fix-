@@ -14,10 +14,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
-    "@strapi/plugin-i18n": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
-    "@strapi/plugin-users-permissions": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
-    "@strapi/strapi": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
+    "@strapi/plugin-cloud": "0.0.0-experimental.ff9fa9d232d9f3748bebc8185e276f8409c07ed4",
+    "@strapi/plugin-i18n": "0.0.0-experimental.ff9fa9d232d9f3748bebc8185e276f8409c07ed4",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.ff9fa9d232d9f3748bebc8185e276f8409c07ed4",
+    "@strapi/strapi": "0.0.0-experimental.ff9fa9d232d9f3748bebc8185e276f8409c07ed4",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
