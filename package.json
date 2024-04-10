@@ -1,35 +1,35 @@
 {
   "name": "test-pr-20080",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
-    "@strapi/plugin-users-permissions": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
-    "@strapi/plugin-i18n": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
-    "@strapi/plugin-cloud": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
+    "@strapi/plugin-cloud": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
+    "@strapi/plugin-i18n": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
+    "@strapi/strapi": "0.0.0-experimental.fea7af0bd6b406e4648e4c6669829249f73eb60f",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "c778eb5d-5826-406c-86d7-0dbe4d2b8d7f"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "c778eb5d-5826-406c-86d7-0dbe4d2b8d7f"
+  }
 }
