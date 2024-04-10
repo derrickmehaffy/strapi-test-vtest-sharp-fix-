@@ -1,0 +1,35 @@
+{
+  "name": "test-pr-20080",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
+    "@strapi/plugin-i18n": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
+    "@strapi/plugin-cloud": "0.0.0-experimental.04af9d2a22e296c7a8c164f72df6ee0648d42452",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c778eb5d-5826-406c-86d7-0dbe4d2b8d7f"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
